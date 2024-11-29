@@ -1,9 +1,11 @@
-import exampleController from "../controllers/exampleController.js";
+
+import {ping} from "../controllers/exampleController.js";
 import express from 'express';
-
+console.log(ping)
 const router = express.Router();
-
-router.post("/register", exampleController.registerExample);
-router.get("/", exampleController.getExample);
+router.get("/ping", exampleController.ping)
+router.get("/", ping)
+// router.post("/register", exampleController.registerExample);
+// router.get("/", exampleController.getExample);
 
 export default router;

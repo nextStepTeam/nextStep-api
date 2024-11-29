@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 
-const ExampleSchema = new mongoose.Schema({
-    name: String,
-});
+// const ExampleSchema = new mongoose.Schema({
+//     name: String,
+// });
 
-export default mongoose.model("Example", ExampleSchema);    
+// export default mongoose.model("Example", ExampleSchema);   
