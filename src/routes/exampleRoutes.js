@@ -1,10 +1,9 @@
 
-import {ping} from "../controllers/exampleController.js";
+import {ping, exemplo} from "../controllers/exampleController.js";
 import express from 'express';
-console.log(ping)
 const router = express.Router();
-router.get("/ping", exampleController.ping)
-router.get("/", ping)
+router.get("/ping", ping)
+router.get("/", express.static('public'))
 // router.post("/register", exampleController.registerExample);
 // router.get("/", exampleController.getExample);
 

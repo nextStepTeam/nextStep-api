@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    color: aliceblue;
+    background-color: #000000;
+    background-image: url("/images/form-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-image: url();
+    display: flex;
+}
+
+form {
+    color : rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+input {
+    margin: 15px;
+    padding: 10px;
+    padding-right: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #002E5D;
+    color : aliceblue;
+}
